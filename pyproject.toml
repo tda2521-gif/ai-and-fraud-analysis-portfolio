@@ -1,0 +1,38 @@
+[project]
+name = "fraud-analysis-portfolio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tda2521-gif", email = "tda2521@jagmail.southalabama.edu" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.0.0",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.12.0",
+]
+
+[project.scripts]
+fraud-analysis-portfolio = "fraud_analysis_portfolio:main"
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "pytest>=7.0.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "pytest>=9.1.1",
+]
