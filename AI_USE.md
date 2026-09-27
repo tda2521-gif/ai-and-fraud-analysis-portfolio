@@ -2,36 +2,27 @@
 
 ## The tool I used
 - Claude Code: The free tier of Claude was used for explanations and troubleshooting.
+- nova: The free tier of nova was used to check for potential risks to academic integrity within the writing-intensive sections of the project. 
 
 ## Where I used it
 
 - **Assignment 2 (Environment Setup & Repository Creation):** [Claude was mainly used to address errors in the code or answer questions as to what could be acomplished with Python & UV.]
-- **Assignment [N] ([name]):** [What you asked for, and what you did yourself.]
+- **Assignment 3 (Project Proposal & Data Source Identification):** [nova was used exclusively to check for potential flags of plagiarism and AI-generated text within the docs/PROPOSAL]
 
 
 ## Where I deliberately did not use it
 
-- 
-- [e.g. Schema design. I wanted to work through normalization myself.]
-- [e.g. Interpretation of the regression results.]
+- Development and writing of the project proposal and proposed hypothesis to be tested.
+
 
 ## Something it got wrong
 
+**Assignment 2**
 A notable error that Claud made was that, in double checking  assigned the datafolder to .gitignore.
-Ultimately, due to time restraints and for simplicity, I reset .gitignore to the Python template.
+Ultimately, due to time restraints and for the sake of simplicity, I reset .gitignore to the Python template.
 
-[Describe at least one instance where the tool produced something incorrect, and how you
-caught it. Be specific: what it suggested, why it was wrong, what you did instead.
-
-This section is not a formality. Catching a real error in AI output demonstrates that you
-understand the material, and it is graded that way.]
 
 ## Verification
 
-In terms of the present task of Portfolio skeleton shaping and environment development,
-verification is not yet applicable outside of successful execution of intended outputs,
-or in aiding to exit Vim, the default text editor, when opened by accident.
-
-[How you checked AI-assisted work before submitting. For example: ran every notebook top
-to bottom on a clean kernel, checked `df.shape` before and after each merge, hand-computed
-one customer's revenue total and compared.]
+In terms of the present task of Project development, there are no known free means to verify the accuracy of nova's scans for potential integrity violations. 
+A limitation of this project is lack of access to a widely accepted integrity-verification tool, such as Turnitin.
