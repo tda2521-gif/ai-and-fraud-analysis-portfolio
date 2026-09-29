@@ -1,0 +1,204 @@
+# AI's growing impact on Fraud Analysis and Fraud Detection
+
+**Author:** Travis Albers
+**Course:** BUS 751 – Python for Business Analytics
+**Date:** September 27, 2026
+**Pathway:** Research-Oriented Investigation (With target output of potential interest to Businesses.) 
+**Target output:** Indication of how the growing influence of AI and stances on AI impact the fraud analysis process
+
+---
+
+## 1. Introduction & Motivation
+
+It can be argued that maintaining a strong focus on financial fraud detection is critical for the sake of organization and consumer alike. Several setbacks and
+consequences are visited upon organizations and consumers alike when it comes to light that a case of financial fraud has taken place (ACFE, 2024; Karajian & Ullah,
+2022). Whether it be hundreds of thousands in US dollars lost to fraudulent reporting (ACFE, 2024) or the psychological damage caused to individuals who fall victim
+to fraud (Kassem, 2024), continued efforts to better utilize available data in fraud prevention and detection efforts are warranted (Theodorakopoulos et al., 2024).
+Research on the uses of machine learning and other AI tools in fraud detection saw a substantial increase in 2022 with a sharp spike in publications between 2023
+and 2024 (Chen et al., 2025). Between that and some companies racing to further develop AI tools since 2023 (Loten, 2023), it would make sense to examine the
+differences in auditing practices and identified fraud cases over the last six years to compare how things have shifted since the AI boom started to take effect.
+
+**Study question:** *Do the growing impact of AI in the business environment or stances on AI impact the fraud analysis process, and if so, how does that
+stance reflect on fraud analysis?*
+
+## 2. Pathway & Target Contribution
+
+- **Pathway:** Research-Oriented Investigation
+- **Contribution in one sentence:** After this study, the reader should have a better understanding of how fraud detection research may change and evolve over
+the next few years.
+
+## 3. Literature Review & Research Gap
+
+  It can be argued that maintaining a strong focus on financial fraud detection is critical for the sake of organization and consumer alike. Several setbacks and
+consequences are visited upon organizations and consumers alike when it comes to light that a case of financial fraud has taken place (ACFE, 2024;
+Karajian & Ullah, 2022). Whether it be hundreds of thousands in US dollars lost to fraudulent reporting (ACFE, 2024) or the psychological damage caused to
+individuals who fall victim to fraud (Kassem, 2024), continued efforts to better utilize available data in fraud prevention and detection efforts are warranted
+(Theodorakopoulos et al., 2024). Research on the uses of machine learning in fraud detection saw a substantial increase in 2022 with a sharp spike in publications
+between 2023 and 2024 (Chen et al., 2025). In addition to recent literature studying possible applications for AI in the fraud detection process as the modern
+landscape evolves (Belahouaoui & Alm, 2025; Van Belle et al, 2023), such changes present fraud perpetrators have new ways to devise more complex schemes
+and force fraud detection as a field to evolve just as rapidly (Pourhabibi et al., 2020; Lokanan & Maddhesia, 2025). According to a systematic literature review
+of 57 articles (2019-2024) by Chen et al. (2025), the current field of financial fraud detection is undergoing a transition away from traditional machine learning
+methods in favor of deep learning approaches. This evolution in the modern landscape is driven by the necessity for tools that can more effectively manage the
+complexities of contemporary finance and process non-linear data structures. Chen et al. also highlight four hurdles limiting the utilization of deep learning;
+Data Imbalance, Explainability, Non-Stationarity, & Privacy. With approximately 84% of the analyzed papers citing "class imbalance" (fraudulent vs. legitimate
+transactions) as a major barrier, Chen et al. recommend using AUC-PR over standard Accuracy metrics to develop more reliable evaluations as a counter towards
+non-stationarity (2025). Further issues hindering full utilization of deep learning include a scarcity of "Explainable AI" (XAI), the evolving fraud patterns
+creating a gap between what models can observe and what is actually going on, and growing privacy software causing computational complexity and reducing data access.
+Chen et al. close out their article by advising future research to foster more cooperation between academia and financial institutions to better translate
+theoretical models into real-world utilization and practice (2025).
+  Looking at benefits and advances of implementing machine learning into the fraud detection process, Sarna et al. discuss using edge AI to mitigate hurdles and
+obstacles which would normally limit what humans can accomplish without such tools (2025). Another strategy strongly worth considering is federal mediation of
+different financial institutions in training shared fraud models. Through this method, organizations can contribute to developing deep learning models without
+risking a leak of sensitive user data, thus, maintaining compliance with privacy laws (Sarna et al., 2025).  Sarna et al. address the need for standardized data
+preprocessing and evaluation frameworks so as to make better comparisons across studies (2025). Sarna et al. also advocate for edge processing as a means mitigate
+digital traffic congestion during times of large consumer use, such as holiday shopping (2025). Just as Chen et al. (2025; 2026) have, Sarna et al. also touch on
+the shift from machine learning to deep learning while calling for future research to focus on improving the transparency of the AI model (2025). However, proper
+implementation of AI tools stalled by several factors, including three addressed by Sarna et al., (2025); lack of interpretability, lack of global data sharing,
+and malicious AI models. Whether due to failures in communication or from AI tools being just as available for fraudulent intent as for fraud prevention, the AI
+tools currently available still leave much room for improvement in the fraud prevention effort. Sarna et al. conclude their article by advocating for a hybrid
+system in which AI models can expedite processes where possible while leaving a means for humans to audit the machine-made decisions and make informed decisions as
+whether to alter such choices (2025).
+	Chen et al. bring more to the literature through a systematic review of 108 peer-reviewed publications (2019–2024) on utilizing deep learning in the financial
+fraud detection process (2026). The literature touches on developments and challenges with implementing deep learning into fraud detection, including the 
+implementation of hybrid systems as suggested by Sarna et al. (2025). However, the challenges brought up by recent literature present especially difficult
+challenges to address before AI tools can be used to their full potential. Until new models start integrating Explainable AI (XAI), they cannot be legally defended
+during regulatory audits. Outside of solidifying standards and regulations, the large resource requirements to get and maintain such systems causes them to be less
+accessible for smaller banks or other entities of similar size with limited assets (Chen et al., 2026).  As for the challenge of catching fraud perpetrators, the
+noted rise in AI vs. AI warfare has escalated to a point where fraud perpetrators are using generative models in an effort to trick the banks’ models into not
+flagging certain anomalous transactions or files (Chen et al., 2026). Lastly, Chen et al. also touch on new applications companies should consider to utilize deep
+learning to its fullest and to better prepare for how the economy and landscape will change, including use of language processing models to safe-guard against
+potential fraud at the executive level (2026).
+  In short, recent financial fraud detection literature has put a strong focus on understanding what AI tools can do in the fraud detection process and what can
+be done to maximize its effectiveness. With the world changing as quickly as it is, consideration of AI tools has become less of a fad to ignore in favor of
+critical human thinking and more of a powerful tool that people are becoming less able to ignore if they wish to keep up. Such a trend is well exemplified by the
+rise of adversarial AI and its efforts to undermine security models. Because of this, both fraud examiners and fraud perpetrators are now in a form of digital
+arms race to get a better grip of this new tool humanity has developed and trying to get ahead of the other side. Future research will likely soon stop asking research
+questions along the lines of whether AI tools can be of aid, if it has not already done so. Future research will more likely focus on attempts to refine existing
+models, or efforts to develop new ones. At least until data access gets to a point where the issue with data imbalance can be addressed in favor of more direct
+data analysis research.
+
+## 4. Research Question(s) & Hypotheses
+
+**Primary research question:** Does the growing influence and adoption of AI reflect on the fraud detection process?
+
+**Hypothesis 1 (Influence of Time on Detection).** 
+- **H0:** Occurrences of fraud detection are not significantly different in volume before 2023 and after 2022.
+- **Falsification condition:** Fraud is suggested to be detected more/less often when reported in 2023 or later, compared to before 2023.
+
+**Hypothesis 2 (Influence of AI Stance on Detection).** 
+- **H0:** Stance on Artificial Intelligence does not significantly influence occurrences of fraud detection.
+- **Falsification condition:**  Fraud is suggested to be detected more/less often when companies present a positive stance on AI, compared to companies presenting
+a negative stance on AI.
+
+**Operationalization of key constructs**
+
+| Construct | Measure |
+|---|---|
+| Relative to AI Boom [Before 2023 / 2023 Onward] (IV)  | file_date (all used databases) |
+| Stance on AI (IV) | term_polarity; reason_polarity; sentence (Computext_us) |
+| Audit Fees (control) | audit_fees (feed10_sox_302_disclosure_controls) |
+| Over-all Fees (control) | total_fees (feed10_sox_302_disclosure_controls) |
+| Fraud Occurence (DV) | noteff_fin_fraud (cfeed11_sox_404_internal_controls) |
+
+## 5. Data
+
+### Sources
+
+| Source | Variables / fields | Frequency | Coverage | Accessibility | 
+|---|---|---|---|---|
+|Computext_us/S&P Global | Text from reports (Is AI mentioned? Positively/Negatively/Neutral?) | Varying | Jan. 2020 – Dec. 2025 | Uni. S AL Doctoral Student coverage of WRDS|
+|feed10_sox_302_disclosure_controls/ Ideagen | Audit Fees | Varying | Jan. 2020 – Dec. 2025 | Uni. S AL Doctoral Student coverage of WRDS|
+|feed11_sox_404_internal_controls/Ideagen | Fraud detected (binary) | Varying | Jan. 2020 – Dec. 2025 | Uni. S AL Doctoral Student coverage of WRDS|
+
+
+## 6. Methods & Identification Strategy
+
+**Estimators / models**
+Data will be analyses through Difference-in-difference analysis (H1), and panel fixed-effects regression (H2).
+
+**Identification strategy.** 
+In order to prevent overstating the causality of AI's proposed impacts on fraud detection, Overall audit fees as well as the ratio of audit fees to total fees
+will be used to mediate for the differences seen between companies of differing sizes and companies with differing levels of focus on auditing.
+
+**Validation & robustness**
+Cross-validation will be used to split the data into 5 folds as a means of testing robustness of the results.
+
+
+## 7. Analysis Plan & Expected Outcomes
+
+**Pre-specified analyses:**
+*Logistical Regression*
+As the DV of focus (Fraud detection) is binary in nature (Detected/Not Detected),
+an analysis that measures the changes in probability of one outcome occuring over the other is the method to use.
+
+**What supports vs. refutes each hypothesis**
+
+| Hypothesis | Supported if… | Refuted if… |
+|---|---|---|
+| H1 | Logistical Regression presents a p-value <0.05 regarding whether fraud detection is different when year <2023| p-value regarding year>=0.05 |
+| H2 | Logistical Regression presents a p-value <0.05 regarding whether fraud detection is different between term and reason polarities on sentences mentioning AI | p-value regarding sentence >=0.05 |
+
+## 8. Contribution & Significance
+
+**Contribution to research.**
+- **Value to Research:** With improved understanding of how developments in AI change fraud analysis, researchers can create projects focusing on how future
+changes will further impact changes in fraud analysis.
+- **Value to Business:** With improved understanding of how developments in AI change fraud analysis, companies can make better-informed decisions on how to
+allocate funds towards fraud prevention and detection measures.
+
+**Success metrics (independent of the direction of results)**
+
+- Data Analysis presents interpretable results of how the constructs interact with each other, providing a direction to focus future studies.
+- Translation of the qualitative sentence variable into quantitative values, providing support to further pursue studies which extract quantitative values from
+statements, reports, and other qualitative archival data.
+
+## 9. Threats to Validity, Limitations & Fallback
+
+**Internal validity**
+- Whether the sentences which do not mention AI can successfully be filtered out of the data for the final analysis.
+
+**External and construct validity**
+- Whether my variables sufficiently reflect the constructs I aim to analyse with this project.
+
+**Limitations**
+- Limited experience identifying keywords and contexts from large volumes of qualitative data.
+
+## 10. Technical Implementation & Reproducibility
+
+- **Databases:** Computext_us; feed10_sox_302_disclosure_controls; feed11_sox_404_internal_controls
+- **Analysis:** Python 3.14+; pandas, numpy, statsmodels.
+- **Dashboard:** View results through Streamlit app.
+- **Deployment:** Streamlit Community Cloud deployed from the GitHub repo.
+
+### Timeline & milestones
+
+| Week(s) | Milestone / activities | Course anchor |
+|---|---|---|
+| 1-4 | Introduction to Python and conceptualization of Project | A 1&2 Survey and Project Skeleton|
+| 5–6 | Introduction to Project topic and Methods | A3 Project Proposal|
+| 7–8 | Build Project Outcome; profile missingness; descriptive EDA by year, sector, state | A4: Data Integration|
+| 9–12 | Fit benchmark, logistic, and boosted models; out-of-time validation; bootstrap CIs; robustness and placebo tests; SHAP | A5&6: Analysis and interpretation of results |
+| 13 | Final review, test for reproducibility check from scratch, polish write-up, submit | A7&Final: Finalized Project and Presentation |
+
+
+## 11. References
+
+ACFE (2024). Occupational Fraud 2024: A Report to the Nations, Association for Certified Fraud Examiners, Austin, TX. https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf
+
+Belahouaoui, R., & Alm, J. (2025). Tax fraud detection using artificial intelligence-based technologies: trends and implications. Journal of Risk and Financial Management, 18(9), 502. https://doi.org/10.3390/jrfm18090502
+
+Chen, Y., Zhao, C., Xu, Y., Nie, C., & Zhang, Y. (2025). Year-over-year developments in financial fraud detection via deep learning: A systematic literature review. arXiv preprint arXiv:2502.00201. https://doi.org/10.48550/arXiv.2502.00201
+
+Chen, Y., Zhao, C., Xu, Y., Nie, C., & Zhang, Y. (2026). Deep learning in financial fraud detection: Innovations, challenges, and applications. Data Science and Management. https://doi.org/10.1016/j.dsm.2025.08.002
+
+Karajian, S., & Ullah, S. (2022). Consequences of fraud and overcoming negative market reaction. Global Finance Journal, 52, 100635. https://doi.org/10.1016/j.gfj.2021.100635
+
+Kassem, R. (2024). How fraud impacts individuals’ wellbeing–academic insights and gaps. Journal of Financial Crime, 31(5), 1261-1268. https://doi.org/10.1108/JFC-08-2023-0215
+
+Loten, A. (2023, March 6). Wall Street Journal. https://www.wsj.com/articles/enterprise-startups-race-to-cash-in-on-chatgpt-mania-c04eeba?mod=Searchresults&pos=2&page=1
+
+Pourhabibi, T., Ong, K. L., Kam, B. H., & Boo, Y. L. (2020). Fraud detection: A systematic literature review of graph-based anomaly detection approaches. Decision Support Systems, 133, Article 113303. https://doi.org/10.1016/j.dss.2020.113303
+
+Sarna, N. J., Rithen, F. A., Jui, U. S., Belal, S., Amin, A., Oishee, T. K., & Islam, A. M. (2025). AI Driven Fraud Detection Models in Financial Networks: A Review. Ieee Access. 10.1109/ACCESS.2025.3596060
+
+Theodorakopoulos, L., Thanasas, G., & Halkiopoulos, C. (2024). Implications of big data in accounting: Challenges and opportunities. Emerging Science Journal, 8(3), 1201-1214. http://dx.doi.org/10.28991/ESJ-2024-08-03-024
