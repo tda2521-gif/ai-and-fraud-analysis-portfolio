@@ -18,9 +18,10 @@
 ## Something it got wrong
 
 **Assignment 2**
-A notable error that Claud made was that, in double checking  assigned the datafolder to .gitignore.
+A notable error that Claud made was that, in double checking, I found that it assigned the datafolder to .gitignore.
 Ultimately, due to time restraints and for the sake of simplicity, I reset .gitignore to the Python template.
-
+**Assignment 3**
+A notable error that nova made was that it flagged the final paragraph of the Literature Review as a risk; labeling "digital arms race" as a potential AI summery of the literature when such a term is an apt description of how some companies are approaching AI tool development.
 
 ## Verification
 
