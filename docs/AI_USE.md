@@ -8,12 +8,12 @@
 
 - **Assignment 2 (Environment Setup & Repository Creation):** [Claude was mainly used to address errors in the code or answer questions as to what could be acomplished with Python & UV.]
 - **Assignment 3 (Project Proposal & Data Source Identification):** [nova was used exclusively to check for potential flags of plagiarism and AI-generated text within the docs/PROPOSAL]
-
+- **Assignment 4 (Database Design & Data Pipeline):** [Claude was used to troubleshoot code errors while creating Python ETL script.]
 
 ## Where I deliberately did not use it
 
 - Development and writing of the project proposal and proposed hypothesis to be tested.
-
+- Development of the ERD and writing of the database normalization or relationships.
 
 ## Something it got wrong
 
