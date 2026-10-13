@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+~$*
+.Rhistory
+.venv/
+
+# Uncompressed data
+data/interim/audit-comp.csv
+data/interim/comp-fraud.csv
+data/interim/computext_us.csv
