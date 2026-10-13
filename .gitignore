@@ -221,6 +221,4 @@ __marimo__/
 .venv/
 
 # Uncompressed data
-data/interim/audit-comp.csv
-data/interim/comp-fraud.csv
 data/interim/computext_us.csv
