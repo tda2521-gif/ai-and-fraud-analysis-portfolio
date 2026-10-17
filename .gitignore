@@ -222,3 +222,7 @@ __marimo__/
 
 # Uncompressed data
 data/external/computext_us.csv
+data/interim/computext_us.csv
+
+# Interim dataset
+data/interim/dataset.db
